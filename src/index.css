@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.mapboxgl-ctrl-bottom-left {
+  display: none;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  display: none;
+}
+
+.Index a {
+  font-size: 20px;
+  background-color: white;
+  width: 400px;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+}

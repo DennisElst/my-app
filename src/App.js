@@ -1,25 +1,19 @@
 import './App.css';
-import { Link, Outlet } from "react-router-dom";
-
-
-import {useEffect, useState} from 'react';
-
+import {Link, Outlet} from 'react-router-dom';
 
 function App() {
-    return(
 
-      <div className = "App">
-        <nav>
-      <Link to="/">Home</Link>
+  return (
+    <div className="App">
+      <nav>
+        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-    </nav>
+        <Link to="/settings">Settings</Link>
+      </nav>
 
-    <div className="Appoutlet">
       <Outlet/>
     </div>
-      </div>
-
-);
+  );
 }
 
 export default App;

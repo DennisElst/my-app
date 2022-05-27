@@ -1,3 +1,24 @@
+.map-container {
+  height: 600px;
+  margin-top: 20px;
+}
+
 .Index {
   text-align: center;
+}
+
+a {
+  color: white;
+
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+body {
+  background-color: #343434;
+}
+
+.Counter {
+  display: none;
 }

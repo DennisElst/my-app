@@ -1,12 +1,10 @@
 import './Hello.css';
 
-
 function Hello(props) {
   return (
     <div className="Hello">
-        Hello {props.name}
-        </div>
-
+      Hello {props.name}
+    </div>
   );
 }
 

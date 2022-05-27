@@ -14,4 +14,4 @@ function StationDetail(props) {
   );
 }
 
-export default StationDetail; 
+export default StationDetail;

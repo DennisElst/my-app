@@ -1,12 +1,10 @@
 import './About.css';
 
-
-function About() {
+function About(props) {
   return (
     <div className="About">
-        About
-        </div>
-
+      About
+    </div>
   );
 }
 
